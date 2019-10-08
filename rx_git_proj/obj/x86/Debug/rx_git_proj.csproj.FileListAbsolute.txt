@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\rx_git_proj.rxtmg
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\rx_git_proj.rxtst
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\rx_git_proj.exe.config
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\rx_git_proj.xml
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\rx_git_proj.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\rx_git_proj.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\obj\x86\Debug\rx_git_proj.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\obj\x86\Debug\rx_git_proj.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\obj\x86\Debug\rx_git_proj.pdb

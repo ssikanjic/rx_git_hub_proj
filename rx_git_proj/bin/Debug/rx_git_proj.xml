@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>rx_git_proj</name>
+    </assembly>
+    <members>
+        <member name="T:rx_git_proj.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:rx_git_proj.Recording1.repo">
+            <summary>
+            Holds an instance of the rx_git_projRepository repository.
+            </summary>
+        </member>
+        <member name="M:rx_git_proj.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:rx_git_proj.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:rx_git_proj.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:rx_git_proj.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:rx_git_proj.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:rx_git_proj.rx_git_projRepository">
+            <summary>
+            The class representing the rx_git_projRepository element repository.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the rx_git_projRepository element repository.
+            </summary>
+        </member>
+        <member name="M:rx_git_proj.rx_git_projRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepository.KeyPromptForm">
+            <summary>
+            The KeyPromptForm folder.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepository.MainForm">
+            <summary>
+            The MainForm folder.
+            </summary>
+        </member>
+        <member name="T:rx_git_proj.rx_git_projRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder">
+            <summary>
+            The KeyPromptFormAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new KeyPromptForm  folder.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.MBtnCancel">
+            <summary>
+            The MBtnCancel item.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.MBtnCancelInfo">
+            <summary>
+            The MBtnCancel item info.
+            </summary>
+        </member>
+        <member name="T:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder">
+            <summary>
+            The MainFormAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MainForm  folder.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -79,6 +79,18 @@ namespace rx_git_proj
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files (x86)\\KeePass Password Safe 2\\KeePass.exe' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("C:\\Program Files (x86)\\KeePass Password Safe 2\\KeePass.exe", "", "C:\\Program Files (x86)\\KeePass Password Safe 2", false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 53;8.", repo.KeyPromptForm.MBtnCancelInfo, new RecordItemIndex(1));
+            repo.KeyPromptForm.MBtnCancel.Click("53;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainForm.Close' at 26;19.", repo.MainForm.CloseInfo, new RecordItemIndex(2));
+            repo.MainForm.Close.Click("26;19");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
