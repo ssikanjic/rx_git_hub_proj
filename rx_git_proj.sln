@@ -4,12 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.1.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rx_git_proj", "rx_git_proj\rx_git_proj.csproj", "{E3D6DDC4-A5D3-4F63-868E-7EE8C8558542}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F00D914-693A-409A-91B3-EEF405E61596}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rx_git_proj", "rx_git_proj\rx_git_proj.csproj", "{E3D6DDC4-A5D3-4F63-868E-7EE8C8558542}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
