@@ -147,9 +147,9 @@
       <id>359d656e-78ee-43c5-90e2-5cfc8e4af705</id>
     </None>
     <None Include="Recording1.rxrec">
-      <BoundTo>af6edcc9-aadf-4668-a328-a75dc5e38f31</BoundTo>
       <id>97a9ca80-0403-46f5-aab4-dbe7c1732f84</id>
       <recordtableid>c38f5055-f717-4acf-8434-fb27d66e0f14</recordtableid>
+      <BoundTo>af6edcc9-aadf-4668-a328-a75dc5e38f31</BoundTo>
     </None>
     <None Include="rx_git_projRepository.rximg">
       <BoundTo>af6edcc9-aadf-4668-a328-a75dc5e38f31</BoundTo>

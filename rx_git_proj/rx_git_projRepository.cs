@@ -97,6 +97,7 @@ namespace rx_git_proj
         public partial class KeyPromptFormAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _mbtncancelInfo;
+            RepoItemInfo _textInfo;
 
             /// <summary>
             /// Creates a new KeyPromptForm  folder.
@@ -105,6 +106,7 @@ namespace rx_git_proj
                     base("KeyPromptForm", "/form[@controlname='KeyPromptForm']", parentFolder, 30000, null, true, "8aee5b77-3e6a-4a83-b775-9357def2d06f", "")
             {
                 _mbtncancelInfo = new RepoItemInfo(this, "MBtnCancel", "button[@controlname='m_btnCancel']", 30000, null, "321bb1d9-54d4-40e2-9f01-8a0bd4eefc34");
+                _textInfo = new RepoItemInfo(this, "Text", "?/?/text[@accessiblerole='Text']", 30000, null, "f08e114f-73ec-41c8-a2eb-f31d7a2d2700");
             }
 
             /// <summary>
@@ -152,6 +154,30 @@ namespace rx_git_proj
                 get
                 {
                     return _mbtncancelInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text item.
+            /// </summary>
+            [RepositoryItem("f08e114f-73ec-41c8-a2eb-f31d7a2d2700")]
+            public virtual Ranorex.Text Text
+            {
+                get
+                {
+                    return _textInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text item info.
+            /// </summary>
+            [RepositoryItemInfo("f08e114f-73ec-41c8-a2eb-f31d7a2d2700")]
+            public virtual RepoItemInfo TextInfo
+            {
+                get
+                {
+                    return _textInfo;
                 }
             }
         }

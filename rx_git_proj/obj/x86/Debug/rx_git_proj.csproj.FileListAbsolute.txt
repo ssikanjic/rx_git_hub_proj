@@ -7,3 +7,4 @@ C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\b
 C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\obj\x86\Debug\rx_git_proj.exe
 C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\obj\x86\Debug\rx_git_proj.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\obj\x86\Debug\rx_git_proj.csprojResolveAssemblyReference.cache

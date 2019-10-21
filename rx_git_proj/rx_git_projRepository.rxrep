@@ -31,6 +31,16 @@ name="rx_git_projRepository">
 			searchtimeout="30000ms">
 				/form[@controlname='KeyPromptForm']/button[@controlname='m_btnCancel']
 			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f08e114f-73ec-41c8-a2eb-f31d7a2d2700"
+			name="Text"
+			refimgid="54245f56-7af0-4ca7-8f4e-8c8e1030ce67"
+			refpath="/form[@controlname='KeyPromptForm']/text[@controlname='m_tbPassword']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']
+			</item>
 			<basepath>
 				/form[@controlname='KeyPromptForm']
 			</basepath>

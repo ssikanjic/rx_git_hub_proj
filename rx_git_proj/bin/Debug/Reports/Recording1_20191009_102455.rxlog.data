@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15e977a12abbcdc4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.1.2.0"
+		host="RXPRESALES002"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="09/10/2019 10:25:00"
+		timestampiso="2019-10-09T08:25:00"
+		endtime="09/10/2019 10:26:14"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'rx_git_projRepository.MainForm.Close'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.960"
+			timeRelativeToTestModuleStartTime="00:07.960"
+			timeWallClock="10:25:08"
+			time="00:07.960"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.043"
+			timeRelativeToTestModuleStartTime="00:08.043"
+			timeWallClock="10:25:08"
+			time="00:08.043"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_7d49a22e\Recordin_7d49a22e_1dec689d_trace.jpg"
+			errthumb="images_Recordin_7d49a22e\Recordin_7d49a22e_1dec689d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 53;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnCancel']"
+				itempath="button[@controlname='m_btnCancel']"
+				fullname="rx_git_projRepository.KeyPromptForm.MBtnCancel"
+				id="321bb1d954d440e29f018a0bd4eefc34"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.989"
+			timeRelativeToTestModuleStartTime="00:13.989"
+			timeWallClock="10:25:14"
+			time="00:13.989"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_7d49a22e\Recordin_7d49a22e_cffe1a66_trace.jpg"
+			errthumb="images_Recordin_7d49a22e\Recordin_7d49a22e_cffe1a66_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MainForm.Close' at 26;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+				itempath="?/?/button[@accessiblename='Close']"
+				fullname="rx_git_projRepository.MainForm.Close"
+				id="21bd3dd32c674d51b49a2dee99fccb74"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.053"
+			timeRelativeToTestModuleStartTime="01:14.053"
+			timeWallClock="10:26:14"
+			time="01:14.053"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_7d49a22e\Recordin_7d49a22e_a98c7058_trace.jpg"
+			errthumb="images_Recordin_7d49a22e\Recordin_7d49a22e_a98c7058_trace_thumb.jpg">
+			<message>
+				Failed to find item 'rx_git_projRepository.MainForm.Close'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']' at step 'form[@controlname='MainForm']' after 922 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder.get_Close() in C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\rx_git_projRepository.cs:line 208&#13;&#10;   at rx_git_proj.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs:line 91&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="91"
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+				itempath="?/?/button[@accessiblename='Close']"
+				fullname="rx_git_projRepository.MainForm.Close"
+				id="21bd3dd32c674d51b49a2dee99fccb74"
+				timeout="60000"
+				failedStep="form[@controlname='MainForm']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

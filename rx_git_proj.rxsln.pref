@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <string>{E3D6DDC4-A5D3-4F63-868E-7EE8C8558542}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution rx_git_proj[rx_git_proj[Recording1.rxrec[]rx_git_projRepository.rxrep[]]]]&#xD;&#xA;Solution rx_git_proj&#xD;&#xA;Solution rx_git_proj" />
+  <StartupProject value="{E3D6DDC4-A5D3-4F63-868E-7EE8C8558542}" />
+</Properties>

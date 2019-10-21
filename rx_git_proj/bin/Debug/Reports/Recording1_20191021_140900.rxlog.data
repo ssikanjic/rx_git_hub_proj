@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c8479d2e5037038"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.1.2.0"
+		host="RXPRESALES002"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="21/10/2019 14:09:05"
+		timestampiso="2019-10-21T12:09:05"
+		endtime="21/10/2019 14:10:14"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'rx_git_projRepository.KeyPromptForm.Text'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.549"
+			timeRelativeToTestModuleStartTime="00:05.549"
+			timeWallClock="14:09:10"
+			time="00:05.549"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_af9edee7\Recordin_af9edee7_85348c5e_trace.jpg"
+			errthumb="images_Recordin_af9edee7\Recordin_af9edee7_85348c5e_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.628"
+			timeRelativeToTestModuleStartTime="00:05.628"
+			timeWallClock="14:09:10"
+			time="00:05.628"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_af9edee7\Recordin_af9edee7_85348c5e_trace.jpg"
+			errthumb="images_Recordin_af9edee7\Recordin_af9edee7_85348c5e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 53;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnCancel']"
+				itempath="button[@controlname='m_btnCancel']"
+				fullname="rx_git_projRepository.KeyPromptForm.MBtnCancel"
+				id="321bb1d954d440e29f018a0bd4eefc34"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.702"
+			timeRelativeToTestModuleStartTime="00:08.702"
+			timeWallClock="14:09:13"
+			time="00:08.702"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Recordin_af9edee7\Recordin_af9edee7_1a6b1dc0_trace.jpg"
+			errthumb="images_Recordin_af9edee7\Recordin_af9edee7_1a6b1dc0_trace_thumb.jpg">
+			<message>
+				Key sequence 'test' with focus on 'KeyPromptForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				itempath="?/?/text[@accessiblerole='Text']"
+				fullname="rx_git_projRepository.KeyPromptForm.Text"
+				id="f08e114f73ec41c8a2ebf31d7a2d2700"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.774"
+			timeRelativeToTestModuleStartTime="01:08.774"
+			timeWallClock="14:10:13"
+			time="01:08.774"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_af9edee7\Recordin_af9edee7_98a029f8_trace.jpg"
+			errthumb="images_Recordin_af9edee7\Recordin_af9edee7_98a029f8_trace_thumb.jpg">
+			<message>
+				Failed to find item 'rx_git_projRepository.KeyPromptForm.Text'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']' at step 'form[@controlname='KeyPromptForm']' after 930 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.get_Text() in C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\rx_git_projRepository.cs:line 168&#13;&#10;   at rx_git_proj.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs:line 91&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="91"
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				itempath="?/?/text[@accessiblerole='Text']"
+				fullname="rx_git_projRepository.KeyPromptForm.Text"
+				id="f08e114f73ec41c8a2ebf31d7a2d2700"
+				timeout="60000"
+				failedStep="form[@controlname='KeyPromptForm']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>
