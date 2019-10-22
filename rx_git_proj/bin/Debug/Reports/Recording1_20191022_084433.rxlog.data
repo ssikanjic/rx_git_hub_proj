@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6f10d5a7c7e3be5"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.1.2.0"
+		host="RXPRESALES002"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="22/10/2019 08:44:38"
+		timestampiso="2019-10-22T06:44:38"
+		endtime="22/10/2019 08:44:52"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.417"
+			timeRelativeToTestModuleStartTime="00:05.417"
+			timeWallClock="08:44:43"
+			time="00:05.417"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.473"
+			timeRelativeToTestModuleStartTime="00:05.473"
+			timeWallClock="08:44:43"
+			time="00:05.473"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MCbUserAccount' at 6;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbUserAccount']"
+				itempath="checkbox[@controlname='m_cbUserAccount']"
+				fullname="rx_git_projRepository.KeyPromptForm.MCbUserAccount"
+				id="1570ebf354da44c3b28df52255cbb560"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.277"
+			timeRelativeToTestModuleStartTime="00:10.277"
+			timeWallClock="08:44:48"
+			time="00:10.277"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MCbKeyFile' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbKeyFile']"
+				itempath="checkbox[@controlname='m_cbKeyFile']"
+				fullname="rx_git_projRepository.KeyPromptForm.MCbKeyFile"
+				id="d70001aac51f4015a2324c63876076b5"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.081"
+			timeRelativeToTestModuleStartTime="00:11.081"
+			timeWallClock="08:44:49"
+			time="00:11.081"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MCbUserAccount' at 4;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbUserAccount']"
+				itempath="checkbox[@controlname='m_cbUserAccount']"
+				fullname="rx_git_projRepository.KeyPromptForm.MCbUserAccount"
+				id="1570ebf354da44c3b28df52255cbb560"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.840"
+			timeRelativeToTestModuleStartTime="00:11.840"
+			timeWallClock="08:44:50"
+			time="00:11.840"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 53;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnCancel']"
+				itempath="button[@controlname='m_btnCancel']"
+				fullname="rx_git_projRepository.KeyPromptForm.MBtnCancel"
+				id="321bb1d954d440e29f018a0bd4eefc34"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.574"
+			timeRelativeToTestModuleStartTime="00:12.574"
+			timeWallClock="08:44:50"
+			time="00:12.574"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.Close' at 26;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+				itempath="?/?/button[@accessiblename='Close']"
+				fullname="rx_git_projRepository.MainForm.Close"
+				id="21bd3dd32c674d51b49a2dee99fccb74"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

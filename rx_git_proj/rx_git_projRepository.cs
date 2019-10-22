@@ -98,6 +98,8 @@ namespace rx_git_proj
         {
             RepoItemInfo _mbtncancelInfo;
             RepoItemInfo _textInfo;
+            RepoItemInfo _mcbkeyfileInfo;
+            RepoItemInfo _mcbuseraccountInfo;
 
             /// <summary>
             /// Creates a new KeyPromptForm  folder.
@@ -107,6 +109,8 @@ namespace rx_git_proj
             {
                 _mbtncancelInfo = new RepoItemInfo(this, "MBtnCancel", "button[@controlname='m_btnCancel']", 30000, null, "321bb1d9-54d4-40e2-9f01-8a0bd4eefc34");
                 _textInfo = new RepoItemInfo(this, "Text", "?/?/text[@accessiblerole='Text']", 30000, null, "f08e114f-73ec-41c8-a2eb-f31d7a2d2700");
+                _mcbkeyfileInfo = new RepoItemInfo(this, "MCbKeyFile", "checkbox[@controlname='m_cbKeyFile']", 30000, null, "d70001aa-c51f-4015-a232-4c63876076b5");
+                _mcbuseraccountInfo = new RepoItemInfo(this, "MCbUserAccount", "checkbox[@controlname='m_cbUserAccount']", 30000, null, "1570ebf3-54da-44c3-b28d-f52255cbb560");
             }
 
             /// <summary>
@@ -178,6 +182,54 @@ namespace rx_git_proj
                 get
                 {
                     return _textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MCbKeyFile item.
+            /// </summary>
+            [RepositoryItem("d70001aa-c51f-4015-a232-4c63876076b5")]
+            public virtual Ranorex.CheckBox MCbKeyFile
+            {
+                get
+                {
+                    return _mcbkeyfileInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MCbKeyFile item info.
+            /// </summary>
+            [RepositoryItemInfo("d70001aa-c51f-4015-a232-4c63876076b5")]
+            public virtual RepoItemInfo MCbKeyFileInfo
+            {
+                get
+                {
+                    return _mcbkeyfileInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MCbUserAccount item.
+            /// </summary>
+            [RepositoryItem("1570ebf3-54da-44c3-b28d-f52255cbb560")]
+            public virtual Ranorex.CheckBox MCbUserAccount
+            {
+                get
+                {
+                    return _mcbuseraccountInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MCbUserAccount item info.
+            /// </summary>
+            [RepositoryItemInfo("1570ebf3-54da-44c3-b28d-f52255cbb560")]
+            public virtual RepoItemInfo MCbUserAccountInfo
+            {
+                get
+                {
+                    return _mcbuseraccountInfo;
                 }
             }
         }

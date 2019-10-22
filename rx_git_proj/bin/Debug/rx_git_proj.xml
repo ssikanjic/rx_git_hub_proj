@@ -118,6 +118,26 @@
             The Text item info.
             </summary>
         </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.MCbKeyFile">
+            <summary>
+            The MCbKeyFile item.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.MCbKeyFileInfo">
+            <summary>
+            The MCbKeyFile item info.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.MCbUserAccount">
+            <summary>
+            The MCbUserAccount item.
+            </summary>
+        </member>
+        <member name="P:rx_git_proj.rx_git_projRepositoryFolders.KeyPromptFormAppFolder.MCbUserAccountInfo">
+            <summary>
+            The MCbUserAccount item info.
+            </summary>
+        </member>
         <member name="T:rx_git_proj.rx_git_projRepositoryFolders.MainFormAppFolder">
             <summary>
             The MainFormAppFolder folder.

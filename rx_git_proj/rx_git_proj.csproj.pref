@@ -1,11 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Recording1.rxrec" />
+    <Element value="rx_git_proj.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Recording1.rxrec" />
     <Element value="rx_git_proj.rxtst" />
+    <Element value="Recording1.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

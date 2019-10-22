@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="58c4d02263dd3d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="9.1.2.0"
+		host="RXPRESALES002"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="21/10/2019 14:15:15"
+		timestampiso="2019-10-21T12:15:15"
+		endtime="21/10/2019 14:16:03"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.130"
+			timeRelativeToTestModuleStartTime="00:05.130"
+			timeWallClock="14:15:20"
+			time="00:05.130"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.186"
+			timeRelativeToTestModuleStartTime="00:05.186"
+			timeWallClock="14:15:20"
+			time="00:05.186"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.Text' at 53;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				itempath="?/?/text[@accessiblerole='Text']"
+				fullname="rx_git_projRepository.KeyPromptForm.Text"
+				id="f08e114f73ec41c8a2ebf31d7a2d2700"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.165"
+			timeRelativeToTestModuleStartTime="00:10.165"
+			timeWallClock="14:15:25"
+			time="00:10.165"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.Close' at 26;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+				itempath="?/?/button[@accessiblename='Close']"
+				fullname="rx_git_projRepository.MainForm.Close"
+				id="21bd3dd32c674d51b49a2dee99fccb74"
+				timeout="60000"
+				codefile="C:\Users\user\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

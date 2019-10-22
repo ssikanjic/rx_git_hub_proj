@@ -18,6 +18,7 @@ name="rx_git_projRepository">
 		id="8aee5b77-3e6a-4a83-b775-9357def2d06f"
 		isrooted="True"
 		name="KeyPromptForm"
+		refimgid="6df21a17-9179-4a63-9d1c-1f39a44dbf91"
 		refpath="/form[@controlname='KeyPromptForm']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -40,6 +41,26 @@ name="rx_git_projRepository">
 			refpath="/form[@controlname='KeyPromptForm']/text[@controlname='m_tbPassword']/text[@accessiblerole='Text']"
 			searchtimeout="30000ms">
 				/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="d70001aa-c51f-4015-a232-4c63876076b5"
+			name="MCbKeyFile"
+			refimgid="2ae0ab8e-0904-448a-ad5c-4bf414957fa4"
+			refpath="/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbKeyFile']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbKeyFile']
+			</item>
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="1570ebf3-54da-44c3-b28d-f52255cbb560"
+			name="MCbUserAccount"
+			refimgid="3ca3d9e3-ddc7-437e-be0b-6a4da7efbef1"
+			refpath="/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbUserAccount']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbUserAccount']
 			</item>
 			<basepath>
 				/form[@controlname='KeyPromptForm']

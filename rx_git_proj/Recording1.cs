@@ -83,11 +83,23 @@ namespace rx_git_proj
             Host.Local.RunApplication("C:\\Program Files (x86)\\KeePass Password Safe 2\\KeePass.exe", "", "C:\\Program Files (x86)\\KeePass Password Safe 2", false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 53;8.", repo.KeyPromptForm.MBtnCancelInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MCbUserAccount' at 6;9.", repo.KeyPromptForm.MCbUserAccountInfo, new RecordItemIndex(1));
+            repo.KeyPromptForm.MCbUserAccount.Click("6;9");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MCbKeyFile' at Center.", repo.KeyPromptForm.MCbKeyFileInfo, new RecordItemIndex(2));
+            repo.KeyPromptForm.MCbKeyFile.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MCbUserAccount' at 4;8.", repo.KeyPromptForm.MCbUserAccountInfo, new RecordItemIndex(3));
+            repo.KeyPromptForm.MCbUserAccount.Click("4;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 53;8.", repo.KeyPromptForm.MBtnCancelInfo, new RecordItemIndex(4));
             repo.KeyPromptForm.MBtnCancel.Click("53;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainForm.Close' at 26;19.", repo.MainForm.CloseInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainForm.Close' at 26;19.", repo.MainForm.CloseInfo, new RecordItemIndex(5));
             repo.MainForm.Close.Click("26;19");
             Delay.Milliseconds(200);
             
