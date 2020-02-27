@@ -1,7 +1,5 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="rx_git_proj.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="rx_git_proj.rxtst" />
